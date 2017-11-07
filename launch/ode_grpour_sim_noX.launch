@@ -1,0 +1,6 @@
+<launch>
+  <node cwd="node" type="ode_grpour_sim_node" pkg="ay_sim" name="ode_grpour_sim">
+    <param name="winx" value="0" />
+    <param name="winy" value="0" />
+  </node>
+</launch>
